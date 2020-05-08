@@ -1,0 +1,4 @@
+plagarismChecker: main.o 
+	g++ -o plagarismChecker main.o
+main:  main.cpp 
+	g++ -std=c++11 -c main.cpp
